@@ -12,12 +12,13 @@ header {
 
 .name {
     float: left;
-    padding: 10px 16px;
+    padding: 10px;
 }
 
 nav {
 padding: 10px;
 width: 85%;
+background-color: #AECCFF;
 }
 
 ul {
@@ -37,27 +38,57 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 16px;
+    padding: 10px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    color: white;
   }
   
-  
+ 
 .heroImg {
-    height: 600px;
     padding: 25px;
-    background-color: powderblue;
+    
+    
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 
+img {
+  display: block;
+
+}
+
+
+button {
+  background-color: #AECCFF; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+ 
+}
+ 
+p {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
 footer {
-background-color: #373738;
+background-color: #E4E4EF;
+height: 40px;
 }
