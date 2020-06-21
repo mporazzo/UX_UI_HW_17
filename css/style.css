@@ -1,32 +1,61 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    background-color: #AECCFF;
+    
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+header {
+    background-color: #AECCFF;
+   
+}
+
+.name {
+    float: left;
+    padding: 10px 16px;
 }
 
 nav {
-width: 73%;
-padding: 1%;
+padding: 10px;
+width: 85%;
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
-}
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
 .heroImg {
     height: 600px;
     padding: 25px;
+    background-color: powderblue;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    
 }
 
 footer {
